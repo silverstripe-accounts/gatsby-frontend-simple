@@ -29,9 +29,9 @@ module.exports = {
         baseUrl: process.env.SILVERSTRIPE_CMS_BASE_URL,
         apiKey: process.env.SILVERSTRIPE_CMS_API_KEY,
         stage: process.env.SILVERSTRIPE_STAGE,
-        forceRefresh: process.env.SILVERSTRIPE_FORCE_REFRESH,
         concurrentRequests: 5,
         batchSize: 300,
+        templatesPath: `src/templates`
       }
     },
     {

@@ -24,7 +24,7 @@ const Page = ({
           <section className={childNodes.length > 0 ? `col-lg-12` : `col-lg-8 offset-lg-2`}>
               <header className="page-header">
                   <Breadcrumbs breadcrumbs={breadcrumbs} />
-                  <h1>{title}</h1>
+                  <h1>test {title}</h1>
               </header>
           </section>
       </div>
